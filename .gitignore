@@ -1,0 +1,5 @@
+# Ignore dependencies
+node_modules/
+
+# Code Coverage
+coverage/

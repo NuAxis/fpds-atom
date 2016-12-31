@@ -1,0 +1,43 @@
+{
+  "name": "fpds-atom",
+  "version": "1.0.0",
+  "description": "JavaScript library for nodejs and browser to search though FPDS.GOV ATOM Feed",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib/**/*.js spec/**/*.js",
+    "test": "npm run lint && npm run coverage && npm run check-coverage",
+    "coverage": "istanbul cover jasmine",
+    "check-coverage": "istanbul check-coverage",
+    "browserify": "browserify index.js -s fpds > fpds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuAxis/fpds-atom.git"
+  },
+  "keywords": [
+    "fpds.gov",
+    "fpds",
+    "gsa",
+    "iae",
+    "fedgov",
+    "federal",
+    "usa"
+  ],
+  "author": "Faheem Memon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NuAxis/fpds-atom/issues"
+  },
+  "homepage": "https://github.com/NuAxis/fpds-atom#readme",
+  "dependencies": {
+    "request": "2.79.0",
+    "xhr": "2.3.2",
+    "xmldoc": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "3.12.2",
+    "eslint-config-google": "0.7.1",
+    "jasmine": "2.5.2",
+    "nock": "9.0.2"
+  }
+}
