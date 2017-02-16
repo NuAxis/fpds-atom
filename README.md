@@ -1,10 +1,10 @@
 # fpds-atom
 JavaScript library for nodejs to search through FPDS.GOV  ATOM Feed
 
-    npm install samwisejs
+    npm install fpds-atom
 
 # Interfaces
-```
+```javascript
 var FPDS = require('fpds-atom');
 
 FPDS.getAwardsByVendor('vendor', function(error, awards) {});
@@ -13,7 +13,7 @@ FPDS.getAwards('param:value', function(error, awards) {});
 ```
 
 # Example Usage
-```
+```javascript
 'use strict';
 var FPDS = require('../index').FPDS;
 var contractID = 'DOLOPS15T00043';
