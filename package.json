@@ -30,7 +30,6 @@
   "homepage": "https://github.com/NuAxis/fpds-atom#readme",
   "dependencies": {
     "request": "2.79.0",
-    "xhr": "2.3.2",
     "xml2js": "0.4.17"
   },
   "devDependencies": {
