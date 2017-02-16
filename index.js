@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports.FPDS = require('./lib/fpds');
+module.exports = require('./lib/fpds');

@@ -7,8 +7,7 @@
     "lint": "eslint lib/**/*.js spec/**/*.js",
     "test": "npm run lint && npm run coverage && npm run check-coverage",
     "coverage": "istanbul cover jasmine",
-    "check-coverage": "istanbul check-coverage",
-    "browserify": "browserify index.js -s fpds > fpds.js"
+    "check-coverage": "istanbul check-coverage"
   },
   "repository": {
     "type": "git",
@@ -32,7 +31,7 @@
   "dependencies": {
     "request": "2.79.0",
     "xhr": "2.3.2",
-    "xmldoc": "1.0.0"
+    "xml2js": "0.4.17"
   },
   "devDependencies": {
     "eslint": "3.12.2",
