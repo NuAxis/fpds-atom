@@ -14,8 +14,7 @@ FPDS.getAwards('param:value', function(error, awards) {});
 
 # Example Usage
 ```javascript
-'use strict';
-var FPDS = require('../index');
+var FPDS = require('fpds-atom');
 var contractID = 'DOLOPS15T00043';
 
 FPDS.getAwardsByContractID(contractID, function(error, awards) {
